@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Dear Shanu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient-hearts" aria-hidden="true"></div>
+  <div class="twinkles" aria-hidden="true"></div>
+
+  <main class="birthday-app">
+    <section class="scene scene-intro is-active" id="introScene" aria-label="Birthday welcome">
+      <div class="ribbon ribbon-left" aria-hidden="true"></div>
+      <div class="ribbon ribbon-right" aria-hidden="true"></div>
+
+      <div class="balloon-field" aria-hidden="true">
+        <span class="balloon balloon-one"></span>
+        <span class="balloon balloon-two"></span>
+        <span class="balloon balloon-three"></span>
+        <span class="balloon balloon-four"></span>
+        <span class="balloon balloon-five"></span>
+      </div>
+
+      <div class="intro-content">
+        <div class="heart-medal" aria-hidden="true"></div>
+        <p class="spark-label">For princes</p>
+        <h1>Happy Birthday</h1>
+        <p class="intro-copy">A red little book of love is waiting for the sweetest Dear Shanu.</p>
+        <button class="primary-action" type="button" id="startButton">
+          <span>Open birthday book</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="scene scene-book" id="bookScene" aria-label="Animated birthday book">
+      <div class="book-lights" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="book-stage">
+        <div class="book-shadow" aria-hidden="true"></div>
+        <div class="book" id="book">
+          <div class="book-pages">
+            <div class="page page-left">
+              <p class="page-kicker">To the cutest heart</p>
+              <h2>Dear Shanu</h2>
+              <p>You make every ordinary moment feel soft, bright, and full of smiles.</p>
+              <div class="mini-hearts" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="page page-right">
+              <p class="page-kicker">A tiny note</p>
+              <h3>There is more love on the next page.</h3>
+              <button class="secondary-action" type="button" id="wishButton">
+                <span>Turn page</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="book-cover">
+            <div class="cover-shine"></div>
+            <div class="cover-corners" aria-hidden="true"></div>
+            <div class="cover-heart" aria-hidden="true"></div>
+            <p>With love</p>
+            <h2>Dear Shanu</h2>
+            <span class="cover-subtitle">My sweetest princes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene scene-wish" id="wishScene" aria-label="Birthday wish page">
+      <div class="confetti" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <article class="wish-book">
+        <div class="wish-header">
+          <p class="spark-label">Happy birthday, Dear Shanu</p>
+          <h2>May your day bloom with love</h2>
+        </div>
+        <div class="wish-note">
+          <p>
+            Wishing you endless smiles, cute surprises, warm hugs, and all the happiness your beautiful heart deserves.
+            You are not just princes, you are one of my favorite reasons to smile.
+          </p>
+          <p>
+            Stay happy, stay lovely, and keep shining in your own sweet way. Today is all yours.
+          </p>
+          <p class="signature">With lots of love</p>
+        </div>
+        <button class="primary-action replay" type="button" id="replayButton">
+          <span>Play again</span>
+        </button>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
